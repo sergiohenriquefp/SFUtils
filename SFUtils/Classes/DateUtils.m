@@ -26,7 +26,7 @@
     
     for (NSString * format in dateFormatsToTry) {
         [dateFormatter setDateFormat:format];
-        NSDate *date = [[[self class] sharedDateFormatter] dateFromString:dateString];
+        NSDate *date = [dateFormatter dateFromString:dateString];
         if (date) {
             return date;
         }
