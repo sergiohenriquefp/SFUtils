@@ -22,4 +22,9 @@
 +(BOOL)savedBoolInfo:(NSString *)key;
 +(void)setBoolInfo:(BOOL)info key:(NSString *)key;
 
+//NSMutableArray
+//Dont forget to implement encoder on Object
++(NSMutableArray*)savedMutableArrayInfo:(NSString *)key;
++(void)setMutableArrayInfo:(NSMutableArray *)info key:(NSString *)key;
+
 @end

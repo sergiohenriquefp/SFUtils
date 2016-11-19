@@ -43,4 +43,28 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
+//NSMutableArray
++(NSMutableArray*)savedMutableArrayInfo:(NSString *)key{
+    
+    NSUserDefaults *currentDefaults = [NSUserDefaults standardUserDefaults];
+    NSData *dataRepresentingSavedArray = [currentDefaults objectForKey:key];
+    
+    NSMutableArray *resultArray = [NSMutableArray array];
+    
+    if (dataRepresentingSavedArray != nil)
+    {
+        NSArray *oldSavedArray = [NSKeyedUnarchiver unarchiveObjectWithData:dataRepresentingSavedArray];
+        if (oldSavedArray != nil){
+            [resultArray addObjectsFromArray:oldSavedArray];
+        }
+    }
+    
+    return resultArray;
+}
++(void)setMutableArrayInfo:(NSMutableArray *)info key:(NSString *)key{
+    
+    [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:info] forKey:key];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 @end
