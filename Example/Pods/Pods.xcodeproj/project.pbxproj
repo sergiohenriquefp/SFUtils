@@ -10,8 +10,9 @@
 		01E98C7FCF04CC6D19AC30B6CF102B69 /* Pods-SFUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 150F5787BBB7FC7C0F4510A9E2D9097C /* Pods-SFUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31C7AB3DE588BE058EDC1D47D62098A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		79A8A1F1EAB410F5C519FC88B2B3DE38 /* SFUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6411724E68A4737BD108362D3395E /* SFUtils-dummy.m */; };
-		81251A97B8CB64CD01D94B12AAAA492A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 695887FA7D7F1351F7CDB2BC3BC3D6FB /* ReplaceMe.m */; };
 		9627C3EE2DB6C9BC8DA557D9523F93CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C34657F31DDFE4A100D7E7A1 /* DateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C34657F11DDFE4A100D7E7A1 /* DateUtils.h */; };
+		C34657F41DDFE4A100D7E7A1 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C34657F21DDFE4A100D7E7A1 /* DateUtils.m */; };
 		CF79D8E333BD2E6559215120FB3977AB /* SFUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C621FC1EC583291061BD7E5D4A4B26 /* SFUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7CF344CEA04B420500C95CA063F2D3A /* Pods-SFUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B539AE6BB1ADFAD2B0A6CA70F4BBE4 /* Pods-SFUtils_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -27,27 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F4B9DFB516814182E4F9E19ABC1FBD /* SFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFUtils.framework; path = SFUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F4B9DFB516814182E4F9E19ABC1FBD /* SFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB954C7262F7D2459FA5643C62ECCCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1279AC5D5BB7351896425CE57157C398 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		150F5787BBB7FC7C0F4510A9E2D9097C /* Pods-SFUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		30C621FC1EC583291061BD7E5D4A4B26 /* SFUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFUtils-umbrella.h"; sourceTree = "<group>"; };
 		3AA6411724E68A4737BD108362D3395E /* SFUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFUtils-dummy.m"; sourceTree = "<group>"; };
 		47C34FD4EBC6D382DE499CE1E5E339C1 /* Pods-SFUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		54EDD4EB133DC45DE939302EE96BCCBB /* Pods-SFUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SFUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		54EDD4EB133DC45DE939302EE96BCCBB /* Pods-SFUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SFUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		634B91E6E8E2C0ECB98B72B2368DA470 /* SFUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFUtils-prefix.pch"; sourceTree = "<group>"; };
 		63DB5008C0E57B9A3BAA3CBB5C3819CB /* Pods-SFUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		642C95E4262EF06C2AA68DC4350EECBA /* Pods-SFUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		695887FA7D7F1351F7CDB2BC3BC3D6FB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		7E24FBB4D64CC60C08952DC9689AA3D1 /* Pods_SFUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFUtils_Tests.framework; path = "Pods-SFUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E24FBB4D64CC60C08952DC9689AA3D1 /* Pods_SFUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B539AE6BB1ADFAD2B0A6CA70F4BBE4 /* Pods-SFUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		9B0FFFE9E6A3CA8BC5B8DA6DEC6CD660 /* Pods-SFUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A7E79A780DA86F43609DD026545EAD1F /* Pods-SFUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9DD5438029C9C2DC5AAE02B6F09D6CD /* SFUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFUtils.xcconfig; sourceTree = "<group>"; };
 		B88A978C4E5969C0A82A1D499E3FA2A9 /* Pods-SFUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C34657F11DDFE4A100D7E7A1 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		C34657F21DDFE4A100D7E7A1 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FD0C0827CBF8E8EDCA2F38664525B856 /* SFUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SFUtils.modulemap; sourceTree = "<group>"; };
+		FD0C0827CBF8E8EDCA2F38664525B856 /* SFUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SFUtils.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +75,9 @@
 		33C32E445E8A9CF51597A8B2146B8380 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				695887FA7D7F1351F7CDB2BC3BC3D6FB /* ReplaceMe.m */,
+				C34657F11DDFE4A100D7E7A1 /* DateUtils.h */,
+				C34657F21DDFE4A100D7E7A1 /* DateUtils.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -135,7 +137,6 @@
 			children = (
 				33C32E445E8A9CF51597A8B2146B8380 /* Classes */,
 			);
-			name = SFUtils;
 			path = SFUtils;
 			sourceTree = "<group>";
 		};
@@ -197,6 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34657F31DDFE4A100D7E7A1 /* DateUtils.h in Headers */,
 				01E98C7FCF04CC6D19AC30B6CF102B69 /* Pods-SFUtils_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81251A97B8CB64CD01D94B12AAAA492A /* ReplaceMe.m in Sources */,
 				79A8A1F1EAB410F5C519FC88B2B3DE38 /* SFUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CF344CEA04B420500C95CA063F2D3A /* Pods-SFUtils_Tests-dummy.m in Sources */,
+				C34657F41DDFE4A100D7E7A1 /* DateUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
