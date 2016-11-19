@@ -11,7 +11,7 @@
 @implementation DateUtils
 
 +(NSDate *)getFormatedDate:(NSString *)localDate{
-
+    
     NSDataDetector *detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeDate error:nil];
     NSTextCheckingResult *result = [detector firstMatchInString:localDate options:0 range:NSMakeRange(0, [localDate length])];
     if ([result resultType] == NSTextCheckingTypeDate) {
@@ -26,7 +26,7 @@
     
     for (NSString * format in dateFormatsToTry) {
         [dateFormatter setDateFormat:format];
-        NSDate *date = [dateFormatter dateFromString:dateString];
+        NSDate *date = [dateFormatter dateFromString:localDate];
         if (date) {
             return date;
         }
