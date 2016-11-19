@@ -1,0 +1,16 @@
+PODS:
+  - SFUtils (0.1.0)
+
+DEPENDENCIES:
+  - SFUtils (from `../`)
+
+EXTERNAL SOURCES:
+  SFUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SFUtils: 326a3e4c402765b6d69c39c2c480154dd478382f
+
+PODFILE CHECKSUM: 70bf45a0dc2807b9b7d9e2e241646bef46cdb12b
+
+COCOAPODS: 1.1.1

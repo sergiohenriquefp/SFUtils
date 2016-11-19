@@ -1,0 +1,22 @@
+{
+  "name": "SFUtils",
+  "version": "0.1.0",
+  "summary": "A short description of SFUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SFUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sergio Freire": "sergiohenriquefp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SFUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFUtils/Classes/**/*"
+}

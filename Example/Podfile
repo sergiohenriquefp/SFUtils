@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SFUtils_Tests' do
+  pod 'SFUtils', :path => '../'
+  
+  
+end
